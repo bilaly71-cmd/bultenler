@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konsolide Sabah Bülteni 09.10.2026</title>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --ink:#1b2430; --muted:#5b6675; --line:#dde2e8;
+  --accent:#0b5cad; --accent-soft:#e4effb; --up:#127a3d; --down:#b3261e; --warn:#8a5a00; --warn-bg:#fff4d6;
+  --head:#eef1f5; --mine:#eaf6ee; --mine-line:#9fd3b0;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1318; --card:#171d25; --ink:#e6eaf0; --muted:#9aa5b4; --line:#2a333f;
+    --accent:#6db0ff; --accent-soft:#16283d; --up:#4cc27a; --down:#ff7b72; --warn:#f0c15a; --warn-bg:#3a2f12;
+    --head:#1d2530; --mine:#14281c; --mine-line:#2f6b45;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1318; --card:#171d25; --ink:#e6eaf0; --muted:#9aa5b4; --line:#2a333f;
+  --accent:#6db0ff; --accent-soft:#16283d; --up:#4cc27a; --down:#ff7b72; --warn:#f0c15a; --warn-bg:#3a2f12;
+  --head:#1d2530; --mine:#14281c; --mine-line:#2f6b45;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:16px}
+header.top{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 14px;margin-bottom:16px}
+h1{font-size:1.5rem;margin:0 0 4px}
+.sub{color:var(--muted);font-size:.9rem;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.chip{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:3px 10px;font-size:.8rem;font-weight:600}
+nav.toc{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}
+nav.toc a{font-size:.8rem;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+section.mine{border-color:var(--mine-line);background:var(--mine)}
+h2{font-size:1.15rem;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+h3{font-size:1rem;margin:16px 0 6px}
+ul{margin:6px 0 6px 18px;padding:0}
+li{margin:3px 0}
+.tbl{overflow-x:auto;margin:8px 0}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--head);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;white-space:nowrap}
+.src{color:var(--muted);font-size:.78rem;white-space:nowrap}
+.warn{background:var(--warn-bg);color:var(--warn);border-radius:6px;padding:6px 10px;margin:8px 0;font-size:.88rem}
+.note{color:var(--muted);font-size:.85rem}
+.up{color:var(--up);font-weight:600}.down{color:var(--down);font-weight:600}
+details{margin:8px 0}
+summary{cursor:pointer;color:var(--accent);font-weight:600}
+.hl td{background:var(--accent-soft)}
+footer{color:var(--muted);font-size:.8rem;padding:8px 4px 24px}
+@media (max-width:600px){.wrap{padding:10px}h1{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>Konsolide Sabah Bülteni</h1>
+  <p class="sub">9 Ekim 2026 Cuma · Yalnızca bugün yüklenen aracı kurum bültenlerine dayanır (8 Ekim BIST kapanışı ve 9 Ekim sabahı verileri)</p>
+  <div class="meta">
+    <span class="chip">18 kaynak okundu</span>
+    <span class="chip">16 kurum adı belgeden teyitli</span>
+    <span class="chip">BIST 100 dün +%0,75</span>
+  </div>
+  <nav class="toc">
+    <a href="#ozet">Özet</a><a href="#beklenti">Kurum beklentileri</a><a href="#benim">Benim beklentim</a><a href="#hisse">Günlük hisse setupları</a>
+    <a href="#teknik">Teknik seviyeler</a><a href="#sirket">Şirket haberleri</a><a href="#makro">Makro/Global</a>
+    <a href="#takvim">Takvim</a><a href="#kaynak">Kaynaklar</a>
+  </nav>
+  <p class="note" style="margin-top:10px"><b>Kaynak etiketleri:</b>
+    [Dest] Destek Yatırım · [A1] A1 Capital · [YK] Yapı Kredi Yatırım · [Ünlü] Ünlü Menkul · [Ata] Ata Yatırım · [Fiba] Fiba Yatırım · [TFG] TFG İstanbul · [Alb] Allbatross · [Halk] Halk Yatırım · [Marb] Marbaş Menkul · [Akb] Akbank Ekonomik Araştırmalar · [Zir] Ziraat Yatırım · [Deniz] Deniz Yatırım · [Kuzey] Kuzey Menkul · [Glob] Global Menkul · [Başk] Başkent Menkul ·
+    belgede kurum adı geçmeyenler: [MFB] "Günlük Piyasa Bülteni, hazırlayan Mehmet Faruk Bekir", [KVH] "Kısa Vadeli Hisse Önerileri" listesi.</p>
+</header>
+
+<section id="ozet">
+  <h2>1. Günün Özeti</h2>
+  <ul>
+    <li><b>Dün:</b> BIST 100 %0,75 yükselişle <b>12.213,58</b> kapandı. Gün içi 12.038,79 dip, 12.233,92 tepe. Hacim 105,65 mlr TL ile Ekim'in en düşüğü [Dest]. Sanayi <span class="up">+%1,75</span>, bankacılık <span class="down">−%1,54</span> (XBANK 15.912). BIST Tüm'de 380 hisse yükselirken 220 düştü [Dest]; BIST 100'de 71 hisse yükseldi [A1].</li>
+    <li><b>Öne çıkanlar:</b> ASTOR +%6,81 (197,50, hacim 10,5 mlr TL), AKCNS +%8,42, PAHOL +%7,69, TUPRS +%3,29, TRMET +%3,40. Düşenler: TKFEN −%4,66, YKBNK −%2,57, AKBNK −%1,59. ASELS 348,75'te yatay kaldı ama 12,9 mlr TL ile en yüksek hacmi yaptı [Alb, Fiba, Glob].</li>
+    <li><b>Toparlanmanın nedenleri:</b> 12.000–12.050 bölgesinden gelen teknik alımlar, fon tasfiyesinde ödemelerin başlaması, TCMB'nin "bulaşma yok" mesajı, enerji ve sanayi hisselerinde seçici alım [A1].</li>
+    <li><b>Açılış tonu:</b> Çoğu kurum yatay/sınırlı alıcılı açılış bekliyor. [Zir] hafif alıcılı, [Kuzey] sınırlı alıcılı, [Ata] "dengelenme çabası", [Marb] hisse bazlı hareket diyor. [YK] 12.000 koruma çabasını ve 12.500 altında zayıflığı vurguluyor.</li>
+    <li><b>Ortak seviyeler (BIST 100):</b> 12.000–12.090 destek, 11.900–11.926 sonraki destek. 12.250–12.300 ilk direnç, 12.500 ana direnç (Bölüm 5).</li>
+    <li><b>Jeopolitik:</b> Trump, 3 Kasım ara seçimlerine kadar İran'a saldırı düzenlenmeyeceğini söyledi. Brent dün %4,1 yükselip 104,3 $ kapandı, sabah 101–103 $. Kasım kapısı açık [YK, Ziraat, Glob, Marb].</li>
+    <li><b>Yabancı çıkışı:</b> 2 Ekim haftasında hisse −189,9 mn $, DİBS −484,7 mn $ (tahvil satışı üçüncü hafta). Brüt rezerv 6. hafta düşüp 167,4 mlr $ oldu [A1, MFB, TFG, Alb].</li>
+    <li><b>Bugün:</b> 10:00 Ağustos sanayi üretimi, 17:00 ABD Michigan güveni. Fed'den Collins, TCMB'den Karahan konuşacak. Pazartesi ABD tahvil piyasası kapalı (Columbus Günü).</li>
+  </ul>
+</section>
+
+<section id="beklenti">
+  <h2>2. Kurum Beklentileri ve Strateji</h2>
+  <div class="tbl"><table>
+    <tr><th>Kurum</th><th>Bugün için beklenti</th></tr>
+    <tr><td>Ziraat</td><td>BIST 100'ün güne hafif alıcılı görüntüyle başlamasını bekliyor. 12.300 aşılırsa 12.380 ve 12.500'e yükseliş devam edebilir. Geri çekilmede 12.150 ve 12.000 destek. VİOP'ta düşen trend korunuyor, 15.500 ve 15.650 sıralı direnç.</td></tr>
+    <tr><td>Ata Yatırım</td><td>"Borsada dengelenme çabası." Günlük göstergeler zayıf, saatlikte toparlanma var. Toparlanmayı "ana trendde dönüş" değil tepki hareketi sayıyor. 12.433 aşılmadıkça temkinli, 12.090 üstünde mevcut pozisyonlar sürdürülebilir, altında kapanış satışı güçlendirebilir. VİOP'ta ikili dip formasyonu ihtimali var, 15.157 ve 15.000 destek.</td></tr>
+    <tr><td>Yapı Kredi</td><td>9 Eylül'de başlayan düşüş sürüyor, 12.500 geçilmedikçe zayıf yükselişler aşağı baskı yaratabilir. 12.000 altı 11.750 ve 11.500'ü test ettirebilir. Kimençe: Trump'ın sözü "Ekim'de saldırmam", Kasım açık. Çözümsüzlük sürerse stagflasyon konuşulur, Kasım'da saldırı piyasayı belirgin baskılar.</td></tr>
+    <tr><td>A1 Capital</td><td>Endeks 12.000–12.050 desteğinden tepki aldı ama 12.230–12.250 direnç bandını güçlü aşamadı. Bugünün kilit verisi sanayi üretimi: zayıf veri faiz indirimi beklentisini güçlendirir ama sanayi şirketlerinin 3Ç görünümü için olumsuz algılanabilir. Yabancının hem hisse hem tahvilde net satıcıya dönmesi önemli.</td></tr>
+    <tr><td>Ünlü</td><td>"Borsa İstanbul güç toplamaya çalışıyor." 12.000 ve 11.900 desteklerinin rahat üzerinde karşılanmasını önemsiyor. Bu seviyelerin üstünde kalındıkça hareket alanı 12.500'e doğru genişler, aksi senaryo görünümü bulanıklaştırır.</td></tr>
+    <tr><td>Marbaş</td><td>Gün içi oynaklık yüksek, algı hızlı değişiyor. Sanayi-bankacılık ayrışması sürüyor. Fon ödemelerinin başlamasıyla geri dönen likiditenin piyasaya yansıması izlenecek. 12 bin üzerinde kalıcılık önemli. Sanayi üretiminin fiyatlamaya etkisini sınırlı görüyor.</td></tr>
+    <tr><td>Kuzey</td><td>BIST 100'de güne sınırlı alıcılı başlangıç bekliyor. Fon tasfiyesi bitene kadar endekste baskının süreceğini, BIST 100 dışı hisselerde negatif ayrışmanın devam ettiğini düşünüyor. 12.200 destek olarak korunursa 12.450 ve 12.600 hedef.</td></tr>
+    <tr><td>Global</td><td>Fon ödemelerinin başlamasıyla gelen alımlar. 12.070–11.900 destek, 12.250–12.395 direnç, kısa vadeli toparlanmanın güç kazanması için önemli.</td></tr>
+    <tr><td>Fiba</td><td>11.800–12.500 bandını izliyor, 12.200'ü ara eşik sayıyor. Toparlanmayı "sınırlı olumlu" buluyor ama alımların genele yayılmamasını kalıcılık sorusu olarak görüyor. Yabancı talebi henüz istikrarlı bir destek değil. Fon belirsizlikleri azaldıkça küresel faiz ve emtia fiyatlamalarının etkisinin daha görünür hale geleceğini yazıyor.</td></tr>
+    <tr><td>TFG İstanbul</td><td>Brent geriledi, risk iştahı yükseldi. Bu sabah madencilik hisselerinin pozitif, petrokimyanın baskılı olması bekleniyor (altın 4.180 $, Brent 101,37 $).</td></tr>
+    <tr><td>Destek Yatırım</td><td>Saatlik grafikte endeks 20 saatlik ortalamanın üstünde, 50 ve 100 saatlik ortalamanın altında; kısa vadeli görünüm kararsız. Sanayi üretimi daralması derinleşirse 22 Ekim PPK öncesi gevşeme tartışmasını destekler, pozitife dönüş sanayi hisseleri için olumlu.</td></tr>
+    <tr><td>Başkent / MFB / Halk / Akbank</td><td>Seviye vermiyor. Piyasa etkisi açısından: fon tasfiyesi belirsizliği azalıyor ama döviz mevduatının 4 haftada 7 mlr $ artması ve yabancının hisse satışı TL varlıklara talebin temkinli olduğunu gösteriyor [Başk]. Halk: ABD'nin İran'a saldırıyı ertelemesi petrol baskısını azaltıp risk iştahını destekleyebilir. Akbank: İSO ihracat iklimi 53,2 ile yükseldi.</td></tr>
+  </table></div>
+  <p><b>Ortak beklenti:</b> Yatay-hafif pozitif açılış, 12.000–12.050 ana destek, 12.250–12.300 civarında ilk direnç, 12.500 üstü kapanış olmadıkça yükselişlerin "tepki" sayılması. Banka–sanayi ayrışması ve düşük hacim kurumların ortak endişesi.</p>
+  <div class="warn">⚠ Ayrışan görüş: [Ünlü] ve [Marb] 12.000/11.900 üstünde hareket alanının 12.500'e genişleyeceğini söylüyor. [YK] ve [Ata] ise toparlanmayı ana trend dönüşü değil tepki sayıyor. [Kuzey] fon süreci bitene kadar baskının süreceğini düşünüyor.</div>
+</section>
+
+<section id="benim" class="mine">
+  <h2>3. Benim Beklentim (yalnızca bugünkü bültenlerdeki verilerden türetildi)</h2>
+  <p class="note">Bu bölüm kurumların görüşü değil, bültenlerdeki rakamları birleştirerek yaptığım yorumdur. Yatırım tavsiyesi değildir. Bültenlerde olmayan hiçbir veri kullanmadım.</p>
+
+  <h3>Ana beklentim: yatay-hafif pozitif açılış, 12.150–12.380 bandında dalgalı gün, kırılım için erken</h3>
+  <ul>
+    <li><b>Açılış lehine:</b> ABD vadelileri +%0,2–0,5, Brent dünkü 104,3 $'dan 101–103 $'a geriledi, ons altın 4.177–4.188 $ (+%1), DXY 102, ABD 10Y %5,22–5,23, USDTRY 49,32–49,34 [A1, Zir, YK, Glob, TFG]. Bu tablo kurumların "sınırlı alıcılı" beklentisiyle uyumlu.</li>
+    <li><b>Gün içi tavan riski:</b> 12.230–12.250 bandı dün alıcıların aşamadığı yer [A1]. Kapanış (12.213,58) bu bandın hemen altında. Ziraat'in 12.300'ü, Destek'in 12.285'i, Global'in 12.250–12.395 bölgesini direnç saymasıyla bu bant dün tepe 12.233,92'de durdu. Ben ilk satış baskısını bu bölgede bekliyorum.</li>
+    <li><b>Kırılım için kanıt yetersiz:</b> Dünkü toparlanmanın hacmi Ekim'in en düşüğü (105,65 mlr TL) [Dest]. Aynı bültenlere göre alım genele yayılmadı: bankalar −%1,54, BIST 100 dışı hisselerde zayıflık sürüyor [Kuzey, Fiba]. Düşük hacimle gelen bir tepkinin ancak 12.300 üstü kapanışla anlam kazanacağını düşünüyorum.</li>
+  </ul>
+
+  <h3>Bültenlerin satır arasından çıkan detaylar</h3>
+  <ol>
+    <li><b>Endeks "taşıyıcı" 3–4 hisseyle yükseldi.</b> Dün net para girişi ASTOR +268,1 mn TL, TUPRS +189,3 mn TL, TRALT +155,4 mn TL, BIMAS +90,9 mn TL. Çıkış: ASELS −935,5 mn TL (fiyat 348,75'te yatay), YKBNK −395,4 mn TL, AKBNK −315,1 mn TL, ISCTR −225,7 mn TL [A1]. ASELS'te devasa satış hacmine rağmen fiyatın sabit kalması, alıcının karşıladığını gösteriyor. Ama bankalardan çıkış sürerken endeksin 12.200'ü koruması sanayi-enerji rotasyonuna bağlı; bu rotasyon bozulursa destek 12.000–12.050'ye geri gelir.</li>
+    <li><b>Sanayi üretimi, rotasyonu tersine çevirebilecek veri.</b> Dün sanayi yükselip bankalar düştü. A1'e göre zayıf veri faiz indirimi beklentisini güçlendirir (bankalar için olumlu) ama sanayi hisselerine negatif yansır. [Ünlü] ise ağustosta ara malı ithalatının yıllık ~%15 artmasını sanayi üretimi için olumlu işaret saymıştı. İkisini birlikte okuyunca: <i>güçlü veri</i> sanayi rallisini destekler ama bankaları baskılar, <i>zayıf veri</i> bunun tersini yapar. Hangisi gelirse gelsin ters taraf zorlanır. Bu yüzden 10:00 sonrası banka-sanayi ayrışmasının yön değiştirmesini bekliyorum.</li>
+    <li><b>Petrol, endeks içi dağılımı belirliyor.</b> Dün Brent +%4,1: TUPRS +%3,29, PETKM +%2,69 yükseldi, THYAO −%0,70 geriledi, bankalar da petrol kaynaklı faiz endişesiyle düştü [Kuzey, Alb]. Bu sabah Brent ~101–103 $'a inince TFG'nin söylediği gibi petrokimya baskı görebilir. Dünkü TUPRS/PETKM kazançlarının bir kısmı geri verilebilir, ama bu sabahki düşüşün kalıcılığı Trump'ın "Ekim'de saldırı yok" sözüne bağlı. Söz Kasım'ı dışarıda bırakmıyor [YK].</li>
+    <li><b>VİOP, spotun ima ettiği kadar güçlü değil.</b> Ekim vadeli dün +%0,18 (15.401) ile spotun (+%0,75) gerisinde kaldı. BIST 30 vadeli konsolide açık pozisyon −17.359 adet (−%3,31) azaldı, Ekim kontratında da açık pozisyon geriledi (480.528) [Dest]. Fiyat artarken açık pozisyonun azalması, yükselişin yeni alımdan çok mevcut kısa pozisyonların kapanmasından gelmiş olabileceğini düşündürüyor (benim yorumum). Ata'nın "ikili dip" beklentisi 15.605 (200 günlük ort.) geçilmeden teyit olmuyor.</li>
+    <li><b>Makro risk sessizce birikiyor.</b> Yabancı hisse ve tahvil satışı sürüyor, brüt rezerv 6 haftadır düşüyor (167,4 mlr $), swap hariç net rezerv 37,9 mlr $, döviz mevduatı 4 haftada 7 mlr $ arttı [MFB, TFG, Glob]. Goldman, rezerv kayıplarının 300 bp'lik indirim sonrası hızlandığını yazdı ve 22 Ekim PPK için piyasanın beklentisinin kendi beklentisinden ayrıştığını belirtti [TFG, Glob]. Faiz indirimi beklentisi bankaları destekleyen ana tema; rezerv ve yabancı çıkışı bunu zayıflatan ana risk. Sanayi üretimi bu yüzden iki yönlü.</li>
+    <li><b>Hafta sonu ve pazartesi riski.</b> Cuma gününün ardından İran, ABD önerisine "birkaç gün içinde" yanıt verecek [Glob]. ABD tahvil piyasası pazartesi kapalı [Ünlü, Dest]. İkisi birlikte, pozisyonlar hafta sonuna taşınmadan önce gün sonuna doğru satış/oynaklık ihtimalini artırıyor. Bu bir tahmin değil, bültenlerdeki takvimden çıkan risk notu.</li>
+    <li><b>ABD'deki teknoloji satışı yurt içine ikinci derece etki yapar.</b> Nasdaq −%1,25, yarı iletken endeksi −%3,4 (OpenAI gelirinin ~50 mlr $ olduğu haberi), Fed Aralık artış ihtimali %69 [Fiba]. Borsa İstanbul'da teknoloji ağırlığı küçük, dolayısıyla asıl etkisi tahvil faizi, DXY ve risk iştahı kanalıyla.</li>
+  </ol>
+
+  <h3>Senaryolar</h3>
+  <div class="tbl"><table>
+    <tr><th>Senaryo</th><th>Tetik (bültenlerdeki seviyelerle)</th><th>Hedef bölge</th><th>Benim ağırlığım</th></tr>
+    <tr><td><b>Ana: dar bantta dalgalanma</b></td><td>12.150–12.300 arasında kalma; sanayi üretimi nötr; Brent 101–103 $</td><td>12.150–12.380</td><td>Ana senaryo</td></tr>
+    <tr><td><b>Yukarı</b></td><td>12.300 üstü kapanış (Ziraat, Destek 12.285) + bankaların toparlanması + Brent'in 100 $ yakınına inmesi</td><td>12.380 → 12.450–12.500 (Ünlü, Kuzey, Ziraat)</td><td>İkincil. Hacim artışı şart.</td></tr>
+    <tr><td><b>Aşağı</b></td><td>12.090–12.050 altı kapanış (Ata, Destek, A1, Gedik) veya Kasım saldırı endişesinin geri gelmesi</td><td>11.926 → 11.900 → 11.779 (Ata)</td><td>Risk senaryosu. 12.000 altında 11.750–11.500'ü gündeme getirir [YK].</td></tr>
+  </table></div>
+
+  <h3>Kurumlarla kıyas</h3>
+  <ul>
+    <li><b>Uyumlu olduğum yer:</b> Çoğu kurum gibi yatay-hafif pozitif açılış, 12.000–12.090 ana destek, 12.500 ana direnç.</li>
+    <li><b>Daha temkinli olduğum yer:</b> [Ünlü] ve [Marb] 12.500'e doğru genişleme ihtimalini öne çıkarıyor. Ben dünkü hacim ve genişlik verilerinden dolayı 12.300 altında beklemeyi daha olası görüyorum.</li>
+    <li><b>Kurumların fazla vurgulamadığı noktalar:</b> ASELS'teki −935 mn TL net çıkışın endeks kırılganlığı, VİOP'taki açık pozisyon düşüşü ve sanayi üretiminin banka-sanayi rotasyonunu iki yönlü etkileyebilmesi.</li>
+  </ul>
+</section>
+
+<section id="hisse">
+  <h2>4. Günlük Hisse Önerileri (Setuplar)</h2>
+  <p class="note">Yalnızca gün içi ve kısa vadeli işlem önerileri alındı. Model portföy, portföy ağırlığı ve uzun vadeli hedef fiyat/tavsiyeler bültene girmedi.</p>
+
+  <h3>4.1 Bugünün günlük önerileri</h3>
+  <div class="tbl"><table>
+    <tr><th>Hisse</th><th>Öneren kurum</th><th>Yön</th><th class="n">Giriş</th><th class="n">Hedef (satış seviyeleri)</th><th class="n">Stop</th><th>Gerekçe</th><th class="n">Kurum</th></tr>
+    <tr class="hl"><td><b>AGHOL</b></td><td>Ziraat</td><td>Alım (kaynakta yön yazmıyor; hedef stopun üstünde)</td><td class="n">belirtilmemiş (referans kapanış 32,14)</td><td class="n">33,18 / 33,20</td><td class="n">31,90</td><td>Kaynakta yok. Günlük +%1,3, beta 0,86.</td><td class="n">1</td></tr>
+    <tr class="hl"><td><b>AKSEN</b></td><td>Ziraat</td><td>Alım (aynı yorum)</td><td class="n">belirtilmemiş (referans kapanış 72,25)</td><td class="n">74,50 / 74,60</td><td class="n">71,60</td><td>Kaynakta yok. Günlük +%0,7, beta 0,84.</td><td class="n">1</td></tr>
+    <tr class="hl"><td><b>VAKBN</b></td><td>Ziraat</td><td>Alım (aynı yorum)</td><td class="n">belirtilmemiş (referans kapanış 33,66)</td><td class="n">34,66 / 34,74</td><td class="n">33,40</td><td>Kaynakta yok. Günlük −%0,1, beta 1,15.</td><td class="n">1</td></tr>
+  </table></div>
+  <p class="note"><b>Benim hesabım (referans kapanışa göre):</b> AGHOL: stop −%0,75, hedef +%3,2, getiri/risk ≈ 4,3. AKSEN: stop −%0,90, hedef +%3,1, ≈ 3,5. VAKBN: stop −%0,77, hedef +%3,0, ≈ 3,9. Dikkat: VAKBN bir banka hissesi ve dün bankacılık endeksi −%1,54 düştü. Sektör akışı bu setup'a karşı. [Alb] pivotuna göre AKBNK ve YKBNK nötr, VAKBN nötr (destek 33,02 / 32,38, direnç 34,08 / 34,50).</p>
+
+  <h3>4.2 Açık kısa vadeli pozisyonlar ([KVH] listesi)</h3>
+  <p class="note">Belgede kurum adı geçmiyor. Kapanış tarihi dolmamış pozisyonlar açık sayıldı. Bugün için yeni öneri eklenmemiş. Fiyatlar [Alb] 8 Ekim kapanışlarıdır.</p>
+  <div class="tbl"><table>
+    <tr><th>Hisse</th><th>Öneri tarihi</th><th class="n">Giriş (açılış)</th><th class="n">Hedef (kâr al)</th><th class="n">Stop (zarar durdur)</th><th class="n">8 Ekim kapanış</th><th>Durum</th></tr>
+    <tr><td><b>SISE</b></td><td>2.10.2026</td><td class="n">37,30</td><td class="n">38,42</td><td class="n">36,18</td><td class="n">37,82</td><td>Açık. Girişin üstünde, hedefe ~%1,6 var.</td></tr>
+    <tr><td><b>EREGL</b></td><td>6.10.2026</td><td class="n">36,84</td><td class="n">37,95</td><td class="n">35,73</td><td class="n">36,60</td><td>Açık. Girişin ~%0,7 altında, stopa ~%2,4.</td></tr>
+    <tr><td><b>SASA</b></td><td>6.10.2026</td><td class="n">1,89</td><td class="n">1,95</td><td class="n">1,83</td><td class="n">1,88</td><td>Açık. Girişin biraz altında.</td></tr>
+  </table></div>
+  <p class="note">Listede aynı dönemde kapanmış öneriler: TRALT, EKGYO, SAHOL %3 kârla hedefe ulaştı; GUBRF ve TRENJ %3 zararla stop oldu. Ekim özeti: 3 kâr al, 2 zarar kes, başarı oranı %60. Listenin Ekim endeks getirisi olarak yazdığı XU100 −%1,03, [Dest]'in "ay başından +%2,23" rakamından farklı (hesap tarihi/baz farkı olabilir).</p>
+
+  <h3>4.3 VİOP setup (Ata Yatırım, Ekim vadeli XU030, F_XU0301026)</h3>
+  <ul>
+    <li><b>Dünkü seans:</b> 15.168'e kadar geriledi, günü +%0,18 ile 15.401'de kapattı (uzlaşma 15.400).</li>
+    <li><b>Yukarı senaryo:</b> İlk önemli direnç 15.605 (200 günlük ortalama). Aşılırsa ikili dip formasyonunun boyun çizgisi 15.910'a doğru atak.</li>
+    <li><b>Aşağı:</b> 15.157 ve 15.000 gün içi ilk destekler.</li>
+    <li>Kaynak giriş fiyatı ya da ayrı stop seviyesi vermiyor.</li>
+  </ul>
+</section>
+
+<section id="teknik">
+  <h2>5. Teknik Seviyeler</h2>
+
+  <h3>BIST 100 seviyeleri (8 Ekim kapanışı 12.213,58)</h3>
+  <div class="tbl"><table>
+    <tr><th>Kurum</th><th>Destek</th><th>Direnç</th></tr>
+    <tr><td>Destek Yatırım</td><td>12.090,27 / 11.966,97</td><td>12.285,40 / 12.357,23</td></tr>
+    <tr><td>Ata</td><td>12.090 / 11.926 / 11.779 (500 günlük üssel)</td><td>12.433 / 12.600 / 12.817</td></tr>
+    <tr><td>Ziraat</td><td>12.150 / 12.000 / 11.900</td><td>12.300 / 12.380 / 12.500</td></tr>
+    <tr><td>Kuzey</td><td>12.200 / 12.000 / 11.700</td><td>12.450 / 12.600 / 12.820</td></tr>
+    <tr><td>Global</td><td>12.070–11.900</td><td>12.250–12.395</td></tr>
+    <tr><td>A1</td><td>12.000–12.050</td><td>12.230–12.250</td></tr>
+    <tr><td>Marbaş</td><td>12.000</td><td>12.370 / 12.550</td></tr>
+    <tr><td>Yapı Kredi</td><td>12.000; altında 11.750 ve 11.500</td><td>12.500</td></tr>
+    <tr><td>Ünlü</td><td>12.000 / 11.900</td><td>12.500'e genişleme (direnç olarak anıldı)</td></tr>
+    <tr><td>Fiba</td><td>11.800 (bandın alt sınırı)</td><td>12.500 (bandın üst sınırı); 12.200 ara eşik</td></tr>
+  </table></div>
+  <p><b>Kesişen seviyeler:</b></p>
+  <ul>
+    <li><b>12.000 psikolojik destek:</b> Ziraat, Kuzey, A1, Marbaş, Yapı Kredi, Ünlü. Ata ve Destek 12.090'ı ilk destek sayıyor.</li>
+    <li><b>11.900–11.926 destek:</b> Ziraat, Ünlü, Global (11.900), Ata (11.926), Destek (11.967 civarı).</li>
+    <li><b>12.200 eşik:</b> Kuzey (destek), Fiba (ara eşik), Ziraat 12.150. Dünkü kapanış bunun hemen üstünde.</li>
+    <li><b>12.250–12.300 ilk direnç:</b> A1 (12.230–12.250), Global (12.250), Destek (12.285), Ziraat (12.300).</li>
+    <li><b>12.370–12.450 direnç:</b> Ziraat 12.380, Marbaş 12.370, Destek 12.357, Global 12.395, Ata 12.433, Kuzey 12.450.</li>
+    <li><b>12.500 ana direnç:</b> Yapı Kredi, Ziraat, Fiba, Ünlü. Marbaş 12.550.</li>
+  </ul>
+
+  <h3>BIST 30 Ekim vadeli (F_XU0301026), kapanış 15.401</h3>
+  <div class="tbl"><table>
+    <tr><th>Kurum</th><th>Destek</th><th>Direnç</th></tr>
+    <tr><td>Destek</td><td>15.230 / 15.058</td><td>15.511 / 15.620</td></tr>
+    <tr><td>Ata</td><td>15.157 / 15.000 / 14.500</td><td>15.561 / 15.730 / 15.910 (metinde ilk direnç 15.605)</td></tr>
+    <tr><td>Ziraat</td><td>15.235 / 15.065 / 14.945</td><td>15.500 / 15.650 / 15.800</td></tr>
+  </table></div>
+  <p><b>Kesişen:</b> 15.500–15.511 ilk direnç (Destek, Ziraat), 15.620–15.650 sonraki direnç (Destek, Ziraat), 15.230–15.235 destek (Destek, Ziraat). Ata'nın seviyeleri bir kademe yukarıda ve aşağıda.</p>
+  <p class="note">[Ünlü] son uzlaşma fiyatını 15.400 (+%0,40) olarak veriyor. USDTRY vadeli uzlaşma 50,026.</p>
+
+  <h3>Altın</h3>
+  <ul>
+    <li><b>A1:</b> ons altın ~4.177 $. İlk direnç 4.200, aşılırsa 4.230–4.250. Destek 4.150 / 4.120 / 4.080. ABD altın vadelisi ~4.202 $.</li>
+  </ul>
+
+  <details>
+    <summary>BIST 30 hisse bazlı günlük pivot ve seviyeler [Alb]</summary>
+    <div class="tbl"><table>
+      <tr><th>Hisse</th><th class="n">Son</th><th class="n">Pivot</th><th>Görünüm</th><th class="n">Destek 1 / 2</th><th class="n">Direnç 1 / 2</th></tr>
+      <tr><td>AEFES</td><td class="n">18,36</td><td class="n">18,23</td><td>Negatif</td><td class="n">18,09 / 17,83</td><td class="n">18,49 / 18,63</td></tr>
+      <tr><td>AKBNK</td><td class="n">68,15</td><td class="n">68,20</td><td>Nötr</td><td class="n">67,05 / 65,95</td><td class="n">69,30 / 70,45</td></tr>
+      <tr><td>ASELS</td><td class="n">348,75</td><td class="n">347,67</td><td>Negatif</td><td class="n">341,33 / 333,92</td><td class="n">355,08 / 361,42</td></tr>
+      <tr><td>ASTOR</td><td class="n">197,50</td><td class="n">193,20</td><td>Negatif</td><td class="n">187,30 / 177,10</td><td class="n">203,40 / 209,30</td></tr>
+      <tr><td>BIMAS</td><td class="n">401,00</td><td class="n">398,75</td><td>Nötr</td><td class="n">396,25 / 391,50</td><td class="n">403,50 / 406,00</td></tr>
+      <tr><td>EKGYO</td><td class="n">19,61</td><td class="n">19,47</td><td>Nötr</td><td class="n">19,27 / 18,94</td><td class="n">19,80 / 20,00</td></tr>
+      <tr><td>ENKAI</td><td class="n">81,60</td><td class="n">80,95</td><td>Negatif</td><td class="n">79,95 / 78,30</td><td class="n">82,60 / 83,60</td></tr>
+      <tr><td>EREGL</td><td class="n">36,60</td><td class="n">36,51</td><td>Negatif</td><td class="n">36,17 / 35,73</td><td class="n">36,95 / 37,29</td></tr>
+      <tr><td>FROTO</td><td class="n">74,40</td><td class="n">74,27</td><td>Negatif</td><td class="n">73,83 / 73,27</td><td class="n">74,83 / 75,27</td></tr>
+      <tr><td>GARAN</td><td class="n">128,50</td><td class="n">128,43</td><td>Nötr</td><td class="n">127,07 / 125,63</td><td class="n">129,87 / 131,23</td></tr>
+      <tr><td>GUBRF</td><td class="n">407,50</td><td class="n">403,67</td><td>Negatif</td><td class="n">398,58 / 389,67</td><td class="n">412,58 / 417,67</td></tr>
+      <tr><td>ISCTR</td><td class="n">12,79</td><td class="n">12,79</td><td>Negatif</td><td class="n">12,62 / 12,44</td><td class="n">12,97 / 13,14</td></tr>
+      <tr><td>KCHOL</td><td class="n">212,40</td><td class="n">210,93</td><td>Pozitif</td><td class="n">208,47 / 204,53</td><td class="n">214,87 / 217,33</td></tr>
+      <tr><td>KRDMD</td><td class="n">43,02</td><td class="n">42,76</td><td>Nötr</td><td class="n">42,18 / 41,34</td><td class="n">43,60 / 44,18</td></tr>
+      <tr><td>MGROS</td><td class="n">501,00</td><td class="n">499,50</td><td>Negatif</td><td class="n">496,50 / 492,00</td><td class="n">504,00 / 507,00</td></tr>
+      <tr><td>PETKM</td><td class="n">20,64</td><td class="n">20,49</td><td>Nötr</td><td class="n">20,27 / 19,89</td><td class="n">20,87 / 21,09</td></tr>
+      <tr><td>PGSUS</td><td class="n">135,60</td><td class="n">135,27</td><td>Negatif</td><td class="n">133,43 / 131,27</td><td class="n">137,43 / 139,27</td></tr>
+      <tr><td>SAHOL</td><td class="n">88,75</td><td class="n">88,05</td><td>Negatif</td><td class="n">86,95 / 85,15</td><td class="n">89,85 / 90,95</td></tr>
+      <tr><td>SASA</td><td class="n">1,88</td><td class="n">1,87</td><td>Negatif</td><td class="n">1,85 / 1,82</td><td class="n">1,90 / 1,92</td></tr>
+      <tr><td>SISE</td><td class="n">37,82</td><td class="n">37,71</td><td>Negatif</td><td class="n">37,41 / 36,99</td><td class="n">38,13 / 38,43</td></tr>
+      <tr><td>TAVHL</td><td class="n">275,75</td><td class="n">274,25</td><td>Nötr</td><td class="n">270,25 / 264,75</td><td class="n">279,75 / 283,75</td></tr>
+      <tr><td>TCELL</td><td class="n">100,20</td><td class="n">99,87</td><td>Negatif</td><td class="n">98,83 / 97,47</td><td class="n">101,23 / 102,27</td></tr>
+      <tr><td>THYAO</td><td class="n">284,25</td><td class="n">284,58</td><td>Negatif</td><td class="n">281,67 / 279,08</td><td class="n">287,17 / 290,08</td></tr>
+      <tr><td>TOASO</td><td class="n">269,00</td><td class="n">265,92</td><td>Negatif</td><td class="n">262,83 / 256,67</td><td class="n">272,08 / 275,17</td></tr>
+      <tr><td>TRALT</td><td class="n">42,24</td><td class="n">42,00</td><td>Negatif</td><td class="n">41,58 / 40,92</td><td class="n">42,66 / 43,08</td></tr>
+      <tr><td>TRMET</td><td class="n">130,80</td><td class="n">129,20</td><td>Nötr</td><td class="n">127,60 / 124,40</td><td class="n">132,40 / 134,00</td></tr>
+      <tr><td>TTKOM</td><td class="n">52,40</td><td class="n">52,13</td><td>Negatif</td><td class="n">51,77 / 51,13</td><td class="n">52,77 / 53,13</td></tr>
+      <tr><td>TUPRS</td><td class="n">392,25</td><td class="n">390,67</td><td>Pozitif</td><td class="n">383,83 / 375,42</td><td class="n">399,08 / 405,92</td></tr>
+      <tr><td>VAKBN</td><td class="n">33,66</td><td class="n">33,44</td><td>Nötr</td><td class="n">33,02 / 32,38</td><td class="n">34,08 / 34,50</td></tr>
+      <tr><td>YKBNK</td><td class="n">35,66</td><td class="n">35,83</td><td>Nötr</td><td class="n">35,05 / 34,43</td><td class="n">36,45 / 37,23</td></tr>
+    </table></div>
+    <p class="note">Allbatross özeti: BIST 30'da 2 şirket pozitif, 10 nötr, 18 negatif. Kaynak PDF'in satır düzeni bozuk. Hisse-sıra eşlemesini bu özet sayısıyla ve diğer kurumların kapanış fiyatlarıyla (YKBNK 35,66; AKBNK 68,15; ISCTR 12,79; GARAN 128,50; THYAO 284,25; TUPRS 392,25; GUBRF 407,50; PETKM 20,64; TRMET 130,80; ASTOR 197,50; TRALT 42,24) karşılaştırarak doğruladım, tuttu.</p>
+  </details>
+</section>
+
+<section id="sirket">
+  <h2>6. Şirket Haberleri</h2>
+  <p class="note">KAP bildirimleri 8 Ekim 18:10 sonrası ve 9 Ekim sabahı için derlendi.</p>
+  <div class="tbl"><table>
+    <tr><th>Şirket</th><th>Olay</th><th>Olası etki / yorum</th><th>Kaynak</th></tr>
+    <tr><td><b>ASELS</b></td><td>Yurt dışındaki son kullanıcıyla 125 mn $'lık silah ve elektronik harp sistemleri ihracat sözleşmesi. Hisse 348,75'te yatay, hacim 12,9 mlr TL (en yüksek), net para çıkışı −935,5 mn TL.</td><td>Global sınırlı olumlu: ilk yarı sonrası açıklanan yeni siparişler 8,0 mlr $, yılbaşından bu yana ~12,9 mlr $. Sözleşme 1Y26 sonu 23,2 mlr $ bakiye siparişin ~%0,5'i.</td><td class="src">Dest, Glob, A1</td></tr>
+    <tr><td><b>DSTKF</b></td><td>İstanbul 3. Sulh Ceza Hâkimliğinin 7 Ekim tarihli kararıyla Destek Finans Faktoring'e TMSF kayyum atandı. TMSF yeni yönetim kurulunu ve genel müdürü atadı. Şirket ticari faaliyetlerin aksamadan sürdüğünü bildirdi.</td><td>Bültenler hisse fiyat tepkisini vermiyor. Dün finansal kiralama-faktoring endeksi −%5,93 ile en çok düşen sektördü [Fiba, Alb]. Bu düşüşte DSTKF'nin payını bültenler ayırmıyor.</td><td class="src">A1, TFG, Zir</td></tr>
+    <tr><td><b>THYAO</b></td><td>Eylül: yolcu 8.988.633 (+%3,6), doluluk %86,8 (+2,2 puan), kargo 205,7 bin ton (+%13). Ocak–Eylül yolcu 73,0 mn (+%5,2), doluluk %85,0. Filo 567 uçak (Eylül 2025: 506). Dış hat +%4,8, Uzak Doğu +%17,8, Orta Doğu −%8,3.</td><td>Global ve Ziraat sınırlı olumlu/nötr, Deniz "olumlu" diyor. Hisse dün −%0,70 (284,25).</td><td class="src">Glob, Zir, Deniz</td></tr>
+    <tr><td><b>AKFGY</b></td><td>Gebze lojistik depo inşaatı için ilişkili taraf Akfen İnşaat ile anahtar teslim birim fiyat esaslı sözleşme (8 Ekim). Bedel ve takvim açıklanmadı.</td><td>Global sınırlı olumlu (kiralama protokolünün ardından inşaat sözleşmesi).</td><td class="src">Glob, Zir, Kuzey</td></tr>
+    <tr><td><b>EKGYO</b></td><td>Umman İskan ve Şehir Planlama Bakanlığı ile iyi niyet anlaşması. Yatırım yükümlülüğü yok.</td><td>Global nötr, Ziraat nötr.</td><td class="src">Glob, Zir</td></tr>
+    <tr><td><b>SASA</b></td><td>415 mn € paya dönüştürülebilir tahvilin kalan 2,4 mn €'luk nakit kısmı ödendi. 412,6 mn € daha önce paya dönüşmüştü. İtfa tamamlandı.</td><td>Global nötr.</td><td class="src">Glob</td></tr>
+    <tr><td><b>SAHOL / Enerjisa Üretim</b></td><td>EBRD, Enerjisa Üretim'in yenilenebilir enerji yatırımlarındaki kısa vadeli borçların refinansmanı için 150 mn $'a kadar sürdürülebilirlik bağlantılı kredi verecek.</td><td>Ziraat nötr.</td><td class="src">Zir</td></tr>
+    <tr><td><b>HALKB</b></td><td>Genel Müdür Özdil: bankanın ikincil halka arzı önümüzdeki günlerde yapılacak, gelirler reel sektöre yönlendirilecek.</td><td>Hisse dün −%1,3 (43,92).</td><td class="src">TFG, Fiba</td></tr>
+    <tr><td><b>METRO</b></td><td>Metro Euphoria Hotel Batumi %100 sahipliğe geçti. Bağımsız değerleme: şirket değeri 140,1 mn $ (363,96 mn GEL). Satın alma değerleme sonucundan %27,3 iskontolu.</td><td>Otelin satışı veya sat-kirala yöntemi daha bağımsız değerlendirilecek.</td><td class="src">A1</td></tr>
+    <tr><td><b>MRGYO</b></td><td>Gayrimenkul portföy değeri 18,08 mlr TL'den 20,77 mlr TL'ye çıktı (6 ayda +%14,89).</td><td>—</td><td class="src">A1</td></tr>
+    <tr><td><b>POLHO</b></td><td>Rekabet Kurulu, Polisan Kansai Boya'nın Kansai Paint tarafından devralınmasına onay verdi.</td><td>—</td><td class="src">Zir</td></tr>
+    <tr><td><b>SKYLP</b></td><td>Takasbank, Merkezi Veri Depolama Ürünü sözleşmesini feshetti. Şirket ürünün teslim ve ifa edildiğini, iade olmadığını belirtti.</td><td>Olumsuz haber.</td><td class="src">A1, Zir</td></tr>
+    <tr><td><b>MEYSU</b></td><td>Kayseri Bölge Adliye Mahkemesi, unvanda "Meysu" markasının kullanımına karşı açılan davada ihtiyati tedbir talebini kesin olarak reddetti.</td><td>Şirket lehine.</td><td class="src">A1</td></tr>
+    <tr><td><b>SERNT</b></td><td>Frankfurt'ta 350 m² showroom faaliyete başladı. Ayrıca Bilecik tesisindeki ilk üretim hattı devrede.</td><td>—</td><td class="src">A1</td></tr>
+    <tr><td><b>SAYAS / SANFM</b></td><td>SAYAS 4Ç26'da ilişkili taraf Ateş Wind Power'a ~3,5 mn € hasılat bekliyor. SANFM Sakarya Hendek OSB'deki yeni tesisini 2027'de tam kapasiteye almayı planlıyor.</td><td>—</td><td class="src">Zir</td></tr>
+    <tr><td><b>EBEBK, AGESA, AKGRT</b></td><td>Önceki bildirimlerin devamı: AKGRT Eylül primi +%26, 9 ay toplamı 32,6 mlr TL (+%38).</td><td>Global AKGRT için sınırlı olumlu.</td><td class="src">Glob, TFG</td></tr>
+    <tr><td><b>BALSU</b></td><td>Halka arz fiyatının belirlenmesine esas varsayımlara ilişkin değerlendirme raporu KAP'ta yayımlandı.</td><td>—</td><td class="src">TFG</td></tr>
+  </table></div>
+  <h3>Para akışı ve pozisyonlama</h3>
+  <ul>
+    <li><b>Net para girişi (BIST 100) [A1]:</b> ASTOR +268,1 mn TL, TUPRS +189,3 mn TL, TRALT +155,4 mn TL, BIMAS +90,9 mn TL. <b>En yüksek çıkış:</b> ASELS −935,5 mn TL, YKBNK −395,4 mn TL, AKBNK −315,1 mn TL, ISCTR −225,7 mn TL, GARAN −78,6 mn TL.</li>
+    <li><b>Genel Kurul bugün:</b> KATMR (10:30 imtiyazlı, 11:00 olağan), OZYSR (11:00) [Alb]. Bugün temettü ödemesi yok.</li>
+    <li><b>Açığa satış (8 Ekim) [Dest]:</b> Rapor ekte, ama tablonun satır düzeni bozuk olduğu için hisse-rakam eşlemesi güvenilir değil. Bültene rakam almadım.</li>
+  </ul>
+</section>
+
+<section id="makro">
+  <h2>7. Makro ve Global</h2>
+  <h3>Türkiye</h3>
+  <ul>
+    <li><b>Fon tasfiyesi:</b> Bakan Şimşek: 17 fonun tasfiyesi tamamlandı, yaklaşık 43 bin yatırımcının parası ilgili bankalara aktarıldı. 131 sorunlu fonun büyüklüğü milli gelirin %0,7'si, sistemik risk yok. Tasfiye kurallarını içeren tasarı yakında TBMM'ye sunulacak. 1 mn TL'ye kadar ara ödeme öngören düzenlemenin yasalaşması bekleniyor, teklif 455.578 yatırımcıyı kapsıyor [Dest, MFB, Zir, Glob, Başk].</li>
+    <li><b>Şimşek:</b> Savaş ve enerji fiyatları dezenflasyonu yavaşlattı ama önceliği fiyat istikrarı. Mali disiplin korunacak. Türkiye, Şubat–Eylül döneminde enflasyonun gerilediği nadir ülkelerden biri [Zir, Glob].</li>
+    <li><b>Rezervler:</b> 2 Ekim haftasında brüt rezerv 3,8 mlr $ azalıp 167,4 mlr $ oldu (altıncı haftalık düşüş, yaklaşık iki ayın en düşüğü). Net rezerv 408 mn $ artışla 53,8 mlr $, swap hariç net 37,9 mlr $ (−2 mlr $). Döviz mevduatları 4 haftada 7 mlr $ arttı (son hafta gerçek kişi +423 mn $, tüzel +428 mn $) [Dest, MFB, TFG].</li>
+    <li><b>Yabancı:</b> 2 Ekim haftasında hisse −189,9 mn $ (önceki hafta +358,6 mn $ alış), DİBS −484,7 mn $ (üç haftada toplam 1 mlr $'ı aştı), özel sektör borçlanma araçları −60 mn $ [A1, Alb, Kuzey].</li>
+    <li><b>Faiz:</b> 2Y gösterge %39,36, 10Y %35,52 [Fiba, YK]. Goldman, 22 Ekim PPK'ya ilişkin piyasa indirim beklentisinin kendi beklentisinden ayrıştığını yazdı. Hanehalkı enflasyon beklentileri bir miktar geriledikten sonra yeniden yükseldi, rezerv kayıpları 300 bp indirim sonrası hızlandı [TFG, Glob].</li>
+    <li><b>Reel getiri (Eylül):</b> En yüksek reel getiri DİBS'te (TÜFE bazında %1,40). BIST 100 TÜFE bazında %5,79 reel kayıpla en çok kaybettiren yatırım aracı oldu [Alb].</li>
+    <li><b>İhracat iklimi:</b> İSO İhracat İklim Endeksi Eylül'de 52,7'den 53,2'ye çıktı (52 ayın zirvesi) [Alb, Akb].</li>
+    <li><b>Kur ve risk primi:</b> USDTRY sabah 49,32–49,34, EURTRY 55,40. 5Y CDS ~249 [Ata, TFG, Marb].</li>
+  </ul>
+  <h3>ABD, Avrupa, Asya</h3>
+  <ul>
+    <li><b>ABD:</b> Dow Jones +%0,10 (51.231), S&amp;P 500 −%0,47 (7.765), Nasdaq −%1,25 (27.193). Yarı iletken endeksi −%3,4: Broadcom −%4,4, Oracle −%5,5, Micron −%4,8. Tetikleyici: FT'nin OpenAI yıllıklandırılmış gelirinin 70 değil ~50 mlr $ olduğu haberi (A1 ~20 mlr $ düşük diyor). Enerji hisseleri petrolle yükseldi, PepsiCo +%3,7 [A1, Fiba, Glob, Halk].</li>
+    <li><b>Fed:</b> Waller ve Musalem ilave faiz artırımlarının gerekebileceğini söyledi, zamanlamada esneklik var. Ekim'de sabit tutma ana senaryo. Aralık'ta artış olasılığı %69 [Fiba].</li>
+    <li><b>ABD tahvil:</b> 30 yıllık ihale %5,618 faizle satıldı, teklif/karşılama 2,54 (son altı ihale ortalamasının üstünde); dolaylı alıcı payı %72,3. 10Y gün içi %5,35'e çıktıktan sonra %5,23, 30Y %5,60–5,66 bandına döndü. 10Y gün içi 24 yılın zirvesi görüldü [A1, MFB, Ünlü, Zir]. Haftalık işsizlik başvuruları 197 bin (beklenti 200 bin), devam eden başvurular 1,716 mn.</li>
+    <li><b>Avrupa:</b> DAX −%1,18 (24.806,97), CAC 40 −%0,51, FTSE 100 −%0,16, Euro Stoxx 50 −%0,8/−0,87. ECB tutanakları enflasyon risklerinin yukarı yönlü olduğunda tüm üyelerin hemfikir olduğunu gösteriyor, Aralık'ta 25 bp artış bekleniyor. Fransa'nın bütçe ve borç endişeleri İtalya ve Yunanistan'a yayılıyor, EURUSD ~1,122 ve beşinci haftalık kayba gidiyor. Almanya 2026 büyüme tahminini %1,30'a yükseltti [A1, Zir, Glob, TFG].</li>
+    <li><b>Asya (sabah):</b> Karışık. Nikkei −%0,06 ile −%1 arası (kaynaklar farklı saatte), Hang Seng +%1,0–1,5, Şanghay −%1,2. TSMC çeyreklik geliri %51 artışla 46,7 mlr $. Kore ve Tayvan tatilde [Glob, Halk, A1, Marb].</li>
+    <li><b>Emtia:</b> Brent dün %4,1 yükselip 104,3 $ kapandı (Husilerin Suudi hedeflerine saldırısı, Hürmüz'de tanker saldırıları, Isaias kasırgası nedeniyle Meksika Körfezi üretim kesintisi). Sabah Trump'ın sözüyle ~%1–1,5 geri çekilerek 101–103 $. Ons altın sabah ~4.177–4.188 $ (+%1), gümüş +%1,4 [Zir, A1, TFG, Marb].</li>
+    <li><b>Jeopolitik:</b> Trump 3 Kasım ara seçimlerine kadar İran'a saldırı olmayacağını, "verimli görüşmeler" yürütüldüğünü söyledi. İran Dışişleri Bakanı Arakçi arabulucular üzerinden ABD önerisine birkaç gün içinde yanıt verecek. ABD abluka ve 17 gemiyi kapsayan yeni yaptırımları sürdürüyor. Rubio, F-35 teslimatının S-400 sorunu çözülmeden yapılamayacağını söyledi [Glob, TFG, YK].</li>
+  </ul>
+  <div class="warn">⚠ Çelişki/farklılık: (1) Ağustos sanayi üretiminin önceki aylık değeri: [Dest] ve [Zir] −%1,0 yazıyor, [A1] −%1,7. (2) Fon ödemesi: [Zir, Başk, Kuzey] Şimşek'in açıklamasını "17 fonun tasfiyesi tamamlandı, 43 bin yatırımcıya ödeme yapıldı" diye aktarıyor. [MFB] ve [Dest] tutarların bankalara aktarıldığını, hesaplara geçişi bankaların yapacağını belirtiyor; [Kuzey] ise ödemenin yatırımcı sayısının ~%10'unu kapsadığını yazıyor. (3) Ara seçim tarihi: çoğu kurum 3 Kasım yazıyor, [Kuzey] 4 Kasım. (4) Brent: dünkü kapanış 104,3 $ ([Zir], [Marb]) iken [Dest] 102,13 $ (+%2,71), [MFB] 101,92 $ (Aralık kontratı) veriyor. Kontrat ve saat farkı olabilir. (5) Nasdaq kapanışı −%1,25 ([A1, Fiba, Dest]), [MFB] son kotasyonda −%1,42/−1,45.</div>
+  <div class="warn">⚠ Not: [Ünlü] bülteninde S&amp;P/Dow/Nasdaq satırlarının etiketleri kaymış. Rakamlar yalnızca diğer kaynaklarla uyuştuğunda kullanıldı.</div>
+</section>
+
+<section id="takvim">
+  <h2>8. Takvim</h2>
+  <div class="tbl"><table>
+    <tr><th>Zaman (TSİ)</th><th>Olay</th><th>Kaynak</th></tr>
+    <tr><td>9 Ekim 10:00</td><td>TÜİK Ağustos sanayi üretimi (önceki yıllık −%0,3; önceki aylık −%1,0 [Dest, Zir] / −%1,7 [A1]); inşaat maliyet endeksi; ECOFIN toplantısı</td><td class="src">Dest, Alb, A1, Zir</td></tr>
+    <tr><td>9 Ekim 11:00</td><td>TCMB Başkanı Karahan, İstanbul Ekonomi Forumu (ikinci gün)</td><td class="src">Zir</td></tr>
+    <tr><td>9 Ekim 17:00</td><td>ABD Michigan tüketici güveni, Ekim öncü (beklenti 47,6, önceki 48,1). 1 yıllık enflasyon beklentisi önceki %4,6, 5 yıllık %3,4</td><td class="src">Dest, Ünlü</td></tr>
+    <tr><td>9 Ekim (gün içi)</td><td>ECB'den Cipollone ve Schnabel, Fed'den Collins (23:00) konuşacak; DAL bilançosu (beklenti 1,94)</td><td class="src">Dest, Alb, Ünlü</td></tr>
+    <tr><td>12 Ekim</td><td>Columbus Günü: ABD tahvil piyasası kapalı</td><td class="src">Dest, Ünlü</td></tr>
+    <tr><td>13 Ekim</td><td>Türkiye cari işlemler dengesi (10:00); ABD banka bilançoları (JPM, WFC, C, GS; ayrıca DPZ, JNJ, UNH); ABD ikinci el konut satışları</td><td class="src">Ünlü</td></tr>
+    <tr><td>14 Ekim</td><td>ABD TÜFE (15:30), Fed Bej Kitap (21:00)</td><td class="src">Ünlü</td></tr>
+    <tr><td>15 Ekim</td><td>ABD ÜFE, perakende satışlar, haftalık işsizlik başvuruları, Fed bölgesel imalat endeksleri</td><td class="src">Ünlü</td></tr>
+    <tr><td>16 Ekim</td><td>TCMB Piyasa Katılımcıları Anketi (10:00)</td><td class="src">Ünlü</td></tr>
+    <tr><td>22 Ekim</td><td>TCMB PPK toplantısı</td><td class="src">Dest</td></tr>
+    <tr><td>3 Kasım</td><td>ABD Kongre ara seçimleri</td><td class="src">Glob, TFG, A1</td></tr>
+  </table></div>
+</section>
+
+<section id="kaynak">
+  <h2>9. Kaynaklar, Dışarıda Kalan ve Eski Tarihli Dosyalar</h2>
+  <ul>
+    <li><b>Okunan 18 kaynak (25 dosya):</b> Destek Yatırım (2 dosya), Yapı Kredi (2), A1 Capital (2), Ünlü, Ata (3), Fiba, TFG İstanbul, Allbatross (2), Halk, Marbaş, Akbank, Ziraat (2), Deniz, Kuzey, Global, Başkent, MFB, KVH listesi.</li>
+    <li><b>Eski tarihli (8 Ekim), bültene katılmadı:</b>
+      <ul>
+        <li>Forex Endeks Bülteni (08.10.2026): 2610081710411_68.pdf</li>
+        <li>Gedik Yatırım <i>Haftalık Parasal Büyüklükler Raporu</i> (8 Ekim): 2610081733091_70.pdf</li>
+        <li>Ziraat Yatırım Kalyon Güneş Teknolojileri (KLYPV) toplantı notları (8 Ekim): 2610081747331_71.pdf</li>
+      </ul>
+    </li>
+    <li><b>Günlük içerik taşımadığı için alınmayanlar:</b> Yabancı İşlemleri Raporu Eylül 2026 (aylık, 2610090508011_1.pdf), Info yabancı pay alım satım Eylül raporu (aylık, infoyabty.pdf).</li>
+    <li><b>Uzun vadeli öneri/hedef fiyat içerdiği için alınmayan:</b> Gedik Yatırım Şok Marketler şirket raporu (SOKMgedik.pdf), A1/Ünlü model portföy tabloları, Deniz'in THYAO hedef fiyat satırı, Kuzey'in boş haftalık hisse takip listesi.</li>
+    <li><b>Kısmen okunabilen:</b> [Dest] açığa satış tablosu (düzen bozuk, hisse eşlemesi güvenilir değil).</li>
+    <li><b>Okunamayan dosya:</b> yok.</li>
+  </ul>
+</section>
+
+<footer>
+  Bu bülten, aracı kurumların kamuya açık bültenlerinin özetidir ve yatırım tavsiyesi değildir. "Benim beklentim" bölümü bültenlerdeki verilerden türetilmiş yorumdur. Rakamlar kaynak kurumlardan aktarılmıştır, bağımsız doğrulanmamıştır.
+</footer>
+</div>
+</body>
+</html>
